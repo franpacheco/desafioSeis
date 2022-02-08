@@ -1,0 +1,43 @@
+body{
+    background-color: #E9B9C9;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menuPrincipal{
+    position: fixed;
+}
+
+.navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+  }
+  
+  .dropdown-toggle::after {
+     transition: transform 0.15s linear; 
+  }
+  
+  .show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+  }
+
+.pieDeImagenIndex{
+    font-size: 25px;
+}
+
+.subTitulo a{
+    text-decoration: none;
+    color: black;
+    font-size:larger;
+    
+}
+
+.navegacion{
+    background-color:rgb(255, 103, 255);
+}
+
+.imagenIndex{
+    width: 100%;
+}
+
