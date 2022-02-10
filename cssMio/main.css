@@ -1,0 +1,23 @@
+/*Variables*/
+body {
+  background-color: #E9B9C9; }
+  body .logo {
+    width: 50%; }
+  body .menuPrincipal {
+    position: fixed; }
+  body .navbar .nav-item:not(:last-child) {
+    margin-right: 35px; }
+  body .dropdown-toggle::after {
+    transition: transform 0.15s linear; }
+  body .show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px); }
+  body header .subTitulo a {
+    text-decoration: none;
+    color: black;
+    font-size: larger; }
+  body main .imagenIndex {
+    width: 100%; }
+  body main .pieDeImagenIndex {
+    font-size: 25px; }
+  body .navegacion {
+    background-color: #ff67ff; }
